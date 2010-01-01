@@ -1,0 +1,143 @@
+---
+abstract: 'A web-based contacts manager'
+author:
+  - 'Ron Savage <ron@savage.net.au>'
+build_requires:
+  Test::More: 0
+  Test::Pod: 0
+configure_requires:
+  Module::Build: 0.36
+generated_by: 'Module::Build version 0.3601'
+license: artistic
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: CGI-Office-Contacts
+provides:
+  CGI::Office::Contacts:
+    file: lib/CGI/Office/Contacts.pm
+    version: 1.00
+  CGI::Office::Contacts::Base:
+    file: lib/CGI/Office/Contacts/Base.pm
+    version: 1.00
+  CGI::Office::Contacts::Controller:
+    file: lib/CGI/Office/Contacts/Controller.pm
+    version: 1.00
+  CGI::Office::Contacts::Controller::Exporter::Notes:
+    file: lib/CGI/Office/Contacts/Controller/Exporter/Notes.pm
+    version: 1.00
+  CGI::Office::Contacts::Controller::Exporter::Organization:
+    file: lib/CGI/Office/Contacts/Controller/Exporter/Organization.pm
+    version: 1.00
+  CGI::Office::Contacts::Controller::Exporter::Person:
+    file: lib/CGI/Office/Contacts/Controller/Exporter/Person.pm
+    version: 1.00
+  CGI::Office::Contacts::Controller::Exporter::Report:
+    file: lib/CGI/Office/Contacts/Controller/Exporter/Report.pm
+    version: 1.00
+  CGI::Office::Contacts::Controller::Exporter::Search:
+    file: lib/CGI/Office/Contacts/Controller/Exporter/Search.pm
+    version: 1.00
+  CGI::Office::Contacts::Controller::Initialize:
+    file: lib/CGI/Office/Contacts/Controller/Initialize.pm
+    version: 1.00
+  CGI::Office::Contacts::Controller::Notes:
+    file: lib/CGI/Office/Contacts/Controller/Notes.pm
+    version: 1.00
+  CGI::Office::Contacts::Controller::Organization:
+    file: lib/CGI/Office/Contacts/Controller/Organization.pm
+    version: 1.00
+  CGI::Office::Contacts::Controller::Person:
+    file: lib/CGI/Office/Contacts/Controller/Person.pm
+    version: 1.00
+  CGI::Office::Contacts::Controller::Report:
+    file: lib/CGI/Office/Contacts/Controller/Report.pm
+    version: 1.00
+  CGI::Office::Contacts::Controller::Search:
+    file: lib/CGI/Office/Contacts/Controller/Search.pm
+    version: 1.00
+  CGI::Office::Contacts::Database:
+    file: lib/CGI/Office/Contacts/Database.pm
+    version: 1.00
+  CGI::Office::Contacts::Database::Base:
+    file: lib/CGI/Office/Contacts/Database/Base.pm
+    version: 1.00
+  CGI::Office::Contacts::Database::EmailAddress:
+    file: lib/CGI/Office/Contacts/Database/EmailAddress.pm
+    version: 1.00
+  CGI::Office::Contacts::Database::Notes:
+    file: lib/CGI/Office/Contacts/Database/Notes.pm
+    version: 1.00
+  CGI::Office::Contacts::Database::Occupation:
+    file: lib/CGI/Office/Contacts/Database/Occupation.pm
+    version: 1.00
+  CGI::Office::Contacts::Database::Organization:
+    file: lib/CGI/Office/Contacts/Database/Organization.pm
+    version: 1.00
+  CGI::Office::Contacts::Database::Person:
+    file: lib/CGI/Office/Contacts/Database/Person.pm
+    version: 1.00
+  CGI::Office::Contacts::Database::PhoneNumber:
+    file: lib/CGI/Office/Contacts/Database/PhoneNumber.pm
+    version: 1.00
+  CGI::Office::Contacts::Database::Util:
+    file: lib/CGI/Office/Contacts/Database/Util.pm
+    version: 1.00
+  CGI::Office::Contacts::Util::Config:
+    file: lib/CGI/Office/Contacts/Util/Config.pm
+    version: 1.00
+  CGI::Office::Contacts::Util::Create:
+    file: lib/CGI/Office/Contacts/Util/Create.pm
+    version: 1.00
+  CGI::Office::Contacts::Util::Validator:
+    file: lib/CGI/Office/Contacts/Util/Validator.pm
+    version: 1.00
+  CGI::Office::Contacts::View:
+    file: lib/CGI/Office/Contacts/View.pm
+    version: 1.00
+  CGI::Office::Contacts::View::Base:
+    file: lib/CGI/Office/Contacts/View/Base.pm
+    version: 1.00
+  CGI::Office::Contacts::View::Notes:
+    file: lib/CGI/Office/Contacts/View/Notes.pm
+    version: 1.00
+  CGI::Office::Contacts::View::Occupation:
+    file: lib/CGI/Office/Contacts/View/Occupation.pm
+    version: 1.00
+  CGI::Office::Contacts::View::Organization:
+    file: lib/CGI/Office/Contacts/View/Organization.pm
+    version: 1.00
+  CGI::Office::Contacts::View::Person:
+    file: lib/CGI/Office/Contacts/View/Person.pm
+    version: 1.00
+  CGI::Office::Contacts::View::Report:
+    file: lib/CGI/Office/Contacts/View/Report.pm
+    version: 1.00
+  CGI::Office::Contacts::View::Role::Report:
+    file: lib/CGI/Office/Contacts/View/Role/Report.pm
+    version: 1.00
+requires:
+  CGI: 0
+  CGI::Application: 0
+  CGI::Session: 0
+  Carp: 0
+  Config::Tiny: 0
+  DBD::Pg: 0
+  DBI: 0
+  DBIx::Admin::CreateTable: 0
+  Data::Verifier: 0
+  Date::Simple: 0
+  DateTime: 0
+  FindBin::Real: 0
+  HTML::Template: 0
+  JSON::XS: 0
+  Log::Dispatch: 0
+  Log::Dispatch::DBI: 0
+  Moose: 0
+  Path::Class: 0
+  Sub::Exporter: 0
+  Time::Elapsed: 0
+  namespace::autoclean: 0
+resources:
+  license: http://opensource.org/licenses/artistic-license.php
+version: 1.00

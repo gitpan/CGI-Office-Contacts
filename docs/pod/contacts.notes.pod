@@ -1,0 +1,12 @@
+=head1 Default in Pop-up Menu
+
+build_select() assumes one of the menu's values is 1.
+
+=head1 update.person.tmpl
+
+This template needs submit_delete even if in add mode, because without it update.person.js dies
+when it tries to access this CGI form field.
+
+=head1 UTF-8
+
+Person sub search() does not call JSON -> utf8(1) because we get UTF-8 from the database.

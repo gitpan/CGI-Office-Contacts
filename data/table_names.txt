@@ -1,0 +1,26 @@
+# name, singular. See View::Base.build_select().
+broadcasts, broadcast
+communication_types, communication_type
+email_address_types, email_address_type
+email_addresses, email_address
+email_organizations, email_organization
+email_people, email_person
+genders, gender
+log, log
+notes, note
+occupation_titles, occupation_title
+occupations, occupation
+organizations, organization
+people, person
+phone_number_types, phone_number_type
+phone_numbers, phone_number
+phone_organizations, phone_organization
+phone_people, phone_person
+report_entities, report_entity
+reports, report
+roles, role
+sessions, session
+spouses, spouse
+table_names, table_name
+titles, title
+yes_nos, yes_no

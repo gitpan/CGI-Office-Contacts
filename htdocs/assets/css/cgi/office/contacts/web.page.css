@@ -1,0 +1,63 @@
+body
+{
+margin: 0;
+padding: 0;
+}
+
+.blue_center
+{
+	background-color: #60c0ff;
+	font-weight: bold;
+	text-align: center;
+}
+
+#occupation_ac_div,
+#organization_ac_div,
+#person_ac_div
+{
+	width: 25em;
+}
+
+.donations_text
+{
+	background-color: #afeeee;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.error
+{
+	color: red;
+	font-weight: bold;
+}
+
+.hide
+{
+	display: none;
+}
+
+.notes_text
+{
+	background-color: #afeeee;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.show
+{
+}
+
+.site_text
+{
+	background-color: #afeeee;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.yui-button#add_occupation button,
+.yui-button#add_organization button,
+.yui-button#add_person button
+{
+	background: url(<tmpl_var name=yui_url>/examples/button/assets/add.gif) 10% 50% no-repeat;
+	padding-left: 2em;
+}

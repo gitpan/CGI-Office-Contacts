@@ -1,0 +1,50 @@
+=head1 FAQ for the Contacts Manager
+
+=head2 A note about the calendars used in reports
+
+A calendar only works when a day is selected. You can tell a day is selected by it
+having a blue background.
+
+Both the From and To calendars default to today's date.
+
+However, if you navigate to another month, you must explicitly select a day by
+clicking on it.
+
+Lastly, for the Records report, the dates are always ignored.
+
+=head2 What does Broadcast mean?
+
+Broadcast is the difference between private and public contacts.
+
+By setting Broadcast to Public, you permit other people's search results to show your contacts.
+
+By setting it to Private, you stop other people's search results displaying your contacts.
+
+So, by this means, you can keep some or all of your contact information private.
+
+=head2 What does '(Hidden)' mean in the broadcast menu?
+
+It means the entity has been deleted, but since entities are not really deleted (in case
+they need to be recovered), they are flagged as hidden, so the search code does not
+retrieve them.
+
+=head2 What does the '-' character mean in a menu?
+
+It depends on the menu:
+
+=over 4
+
+=item Communication types: Any contact method, i.e. no restriction
+
+=item Genders: Either unknown (for people), or not applicable (for organizations)
+
+=item Occupation titles: The title is unknown
+
+=item Organization names: The name is '-'. This is the special organization which must always be present
+
+=item Roles: The role is unknown
+
+=item Titles: The title is unknown
+
+=back
+
