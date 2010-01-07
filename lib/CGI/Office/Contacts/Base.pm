@@ -6,7 +6,7 @@ has logger => (is => 'ro', isa => 'Log::Dispatch', required => 1);
 
 use namespace::autoclean;
 
-our $VERSION = '1.00';
+our $VERSION = '1.01';
 
 # -----------------------------------------------
 # This sub is copied from CGI::Office::Controller.

@@ -10,7 +10,7 @@ has query  => (is => 'ro', isa => 'Any', required => 1);
 
 use namespace::autoclean;
 
-our $VERSION = '1.00';
+our $VERSION = '1.01';
 
 # -----------------------------------------------
 

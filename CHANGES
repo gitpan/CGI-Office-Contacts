@@ -1,5 +1,8 @@
 Revision history for Perl extension CGI::Office::Contacts.
 
+1.01  Thu Jan  7 15:39:00 2009
+	- Add MANIFEST and MYMETA.yml
+
 1.00  Thu Dec 31 10:48:00 2009
 	- Rename from Local::Contacts.
 	- Remove Apache-specific code.

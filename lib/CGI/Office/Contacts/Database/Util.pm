@@ -9,7 +9,7 @@ has table_map => (is => 'rw', isa => 'HashRef', required => 0);
 
 use namespace::autoclean;
 
-our $VERSION = '1.00';
+our $VERSION = '1.01';
 
 # -----------------------------------------------
 

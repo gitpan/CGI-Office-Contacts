@@ -4,7 +4,7 @@ use JSON::XS;
 
 use Moose::Role;
 
-our $VERSION = '1.00';
+our $VERSION = '1.01';
 
 # -----------------------------------------------
 
